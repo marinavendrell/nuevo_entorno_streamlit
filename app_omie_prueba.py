@@ -9,7 +9,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 import warnings
-warnings.filterwarnings("ignore")
+#warnings.filterwarnings("ignore")
 
 
 import pytz
