@@ -3,7 +3,7 @@ category_encoders==2.6.1
 folium==0.14.0
 matplotlib==3.7.1
 numpy==1.25.0
-OMIEData @ git+https://github.com/acruzgarcia/OMIEData.git@0.1.0
+OMIEData @ git+https://github.com/acruzgarcia/OMIEData.git@main
 openpyxl==3.0.9
 pandas==1.5.3
 plotly==5.15.0
