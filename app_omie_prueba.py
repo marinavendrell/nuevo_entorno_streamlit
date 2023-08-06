@@ -1,4 +1,4 @@
-import datetime as dt
+from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 
 from OMIEData.DataImport.omie_marginalprice_importer import OMIEMarginalPriceFileImporter
@@ -16,7 +16,7 @@ import pytz
 import streamlit as st
 
 
-fecha_hora_actual = dt.datetime(2023, 8, 7)
+fecha_hora_actual = datetime(2023, 8, 7)
 
 # Sumar 24 horas
 desplazamiento = timedelta(hours=24)
