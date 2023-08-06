@@ -16,7 +16,7 @@ import pytz
 import streamlit as st
 
 
-fecha_hora_actual = dt.datetime(2022, 10, 13)
+fecha_hora_actual = dt.datetime(2023, 8, 7)
 
 # Sumar 24 horas
 desplazamiento = timedelta(hours=24)
