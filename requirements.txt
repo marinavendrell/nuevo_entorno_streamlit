@@ -5,7 +5,7 @@ matplotlib==3.7.1
 numpy==1.25.0
 OMIEData==0.1.0.2
 openpyxl==3.0.9
-pandas==2.0.1
+pandas==1.5.3
 plotly==5.15.0
 pyjanitor==0.23.1
 pytz==2022.7
