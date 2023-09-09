@@ -44,10 +44,10 @@ warnings.filterwarnings("ignore")
 def conexion_openweathermap_futuro():
 
     #Api_key personal
-    api_key = '47286e5de5a37110bf78eb9cd72a25c3'
+    api_key = 'XXX'
 
     #Zona geográfica:la nava
-    url = 'https://api.openweathermap.org/data/3.0/onecall?lat=38.6628444&lon=-5.391886111111112&exclude=current,minutely,alerts&appid=47286e5de5a37110bf78eb9cd72a25c3&units=metric'
+    url = 'https://api.openweathermap.org/data/3.0/onecall?lat=38.6628444&lon=-5.391886111111112&exclude=current,minutely,alerts&appid=XXX&units=metric'
     querystring = {"api_key": api_key}
     response = requests.get(url, params=querystring, verify=False)
 
@@ -74,7 +74,7 @@ def conexion_openweathermap_futuro():
 ### Conexión OpenWeatherMap con datos a pasado
 def conexion_openweathermap_pasado():
 
-    api_key = '47286e5de5a37110bf78eb9cd72a25c3'
+    api_key = 'XXX'
 
 
     fecha_hora_actual = datetime(2022, 10, 5, 0)
@@ -96,7 +96,7 @@ def conexion_openweathermap_pasado():
 
     url = []
     for i in range(dt, df_final + 1, 3600):
-        url_1 = f"https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=38.6628444&lon=-5.391886111111112&dt={i}&appid=47286e5de5a37110bf78eb9cd72a25c3&units=metric"
+        url_1 = f"https://api.openweathermap.org/data/3.0/onecall/timemachine?lat=38.6628444&lon=-5.391886111111112&dt={i}&appid=XXX&units=metric"
         url.append(url_1)
 
     querystring = {"api_key": api_key}
